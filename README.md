@@ -10,7 +10,7 @@ license: mit
 pipeline_tag: zero-shot-classification
 ---
 
-# 🤗 xlm-roberta-large-it-mnli
+# xlm-roberta-large-it-mnli
 Model at https://huggingface.co/Jiva/xlm-roberta-large-it-mnli
 ## Model Description
 This model takes [xlm-roberta-large](https://huggingface.co/xlm-roberta-large) and fine-tunes it on a subset of NLI data taken from a automatically translated version of the MNLI corpus. It is intended to be used for zero-shot text classification, such as with the Hugging Face [ZeroShotClassificationPipeline](https://huggingface.co/transformers/master/main_classes/pipelines.html#transformers.ZeroShotClassificationPipeline).
